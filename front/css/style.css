@@ -1,3 +1,62 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 480px;
+  font-family: "spartan";
+  color: #2e3244;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: -22px;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+  width: auto;
+  height: 3rem;
+  background-color: #fff;
+}
+
+.wr_logo {
+  height: 1.5rem;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+header nav ul li:hover {
+  color: #ffffff;
+  background-color: #516079;
+}
+header nav ul li.linkOn a {
+  color: #f1895c;
+}
+
+header nav ul a {
+  outline: none;
+  text-decoration: none;
+  color: #2e3244;
+}
+
 /* caroussel : inspiration w3schools.com */
 
 * {
