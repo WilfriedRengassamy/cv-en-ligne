@@ -7,21 +7,23 @@ body {
   color: #2e3244;
 }
 
+/* header */
+
 header {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: -22px;
+  margin-top: -8px;
   margin-bottom: 16px;
   justify-content: flex-start;
   width: auto;
-  height: 3rem;
+  height: 4rem;
   background-color: #fff;
+  font-size: 0.8rem;
 }
 
 .wr_logo {
-  height: 1.5rem;
+  height: 2rem;
+  padding-right: 1rem;
 }
 
 header nav {
@@ -35,6 +37,8 @@ header nav ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  margin: inherit;
 }
 
 header nav ul li {
@@ -42,10 +46,17 @@ header nav ul li {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  height: auto;
+  padding: 0 1rem 0 1rem;
 }
 header nav ul li:hover {
-  color: #ffffff;
   background-color: #516079;
+}
+header nav ul li:hover a {
+  color: #fff;
+}
+header nav ul li.page_logo:hover {
+  background-color: #fff;
 }
 header nav ul li.linkOn a {
   color: #f1895c;
@@ -65,9 +76,10 @@ header nav ul a {
 
 /* conteneur du caroussel */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 600px;
 }
 
 /* cacher les images par défaut */
@@ -165,4 +177,46 @@ header nav ul a {
   to {
     opacity: 1;
   }
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6rem;
+  background-color: #2e3244;
+  font-size: 0.8rem;
+}
+
+.socials_logo {
+  height: 1.5rem;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: inherit;
+}
+
+footer nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+  padding: 0 0.3rem 0 0.3rem;
+}
+
+footer p {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
 }
