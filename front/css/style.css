@@ -6,6 +6,28 @@ body {
   font-family: "spartan";
   color: #2e3244;
 }
+h1 {
+  font-weight: 200;
+  font-size: 4.5rem;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #f1895c;
+}
+h3 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #516079;
+}
+h4 {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
 
 /* header */
 
@@ -213,8 +235,8 @@ header nav ul a {
 #cv__menu {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -8px;
-  margin-bottom: 16px;
+  margin-top: -0.2rem;
+  margin-bottom: 2rem;
   justify-content: center;
   width: auto;
   height: 2rem;
@@ -266,10 +288,85 @@ header nav ul a {
   color: #2e3244;
 }
 
+/* div cv__content */
+#cv__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date {
+  color: #717171;
+}
+#cv__competences {
+  display: flex;
+  flex-wrap: wrap;
+  width: 86%;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+#cv__competences h1 {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+}
+
+#competences {
+  display: flex;
+  flex-wrap: wrap;
+  width: 18rem;
+  height: fit-content;
+  margin: -1.54rem 0 0 1rem;
+}
+
+#jobs {
+  margin: -1.54rem 4rem 0 1rem;
+}
+
+.exp {
+  width: 14rem;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+#schools {
+  margin: -1.54rem 0 0 0;
+}
+
+#hoobies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#hobbies__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hobby {
+  display: flex;
+  flex-wrap: wrap;
+  width: 18%;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
 /* article cv__apt */
 #cv__apt {
   display: flex;
   flex-wrap: wrap;
+  width: 11%;
+  background-color: #516079;
+  padding: 0rem 0.8rem 0.1rem 0.8rem;
+}
+#cv__apt h3 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+#cv__apt h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: -0.5rem;
+}
+#cv__apt p {
+  font-size: 0.7rem;
+  color: #fff;
 }
 
 /* footer */
