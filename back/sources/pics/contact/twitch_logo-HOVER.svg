@@ -3,16 +3,20 @@
 <svg version="1.1" id="twitch" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#9147FF;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#9147FF;}
 </style>
 <g>
+	<polygon class="st0" points="212.8,313.1 132.6,313.1 132.6,26.4 437.3,26.4 437.3,237.5 361.2,313.6 289.4,313.6 212.8,390.2 	"/>
 	<g>
 		<g>
-			<path class="st0" d="M123,0L35.5,87.5v324.4h107V500l88.9-88.9h73L464.5,251V0H123z M427.3,233.4l-70.2,70.2h-71.8l-62.5,62.5
-				v-63h-80.2V36.4h284.7V233.4z"/>
+			<g>
+				<path class="st1" d="M123,0L35.5,87.5v324.4h107V500l88.9-88.9h73L464.5,251V0H123z M427.3,233.4l-70.2,70.2h-71.8l-62.5,62.5
+					v-63h-80.2V36.4h284.7V233.4z"/>
+			</g>
+			<rect x="240.5" y="97" class="st1" width="34.5" height="109.1"/>
+			<rect x="339.4" y="97" class="st1" width="34.5" height="109.1"/>
 		</g>
-		<rect x="240.5" y="97" class="st0" width="34.5" height="109.1"/>
-		<rect x="339.4" y="97" class="st0" width="34.5" height="109.1"/>
 	</g>
 </g>
 </svg>

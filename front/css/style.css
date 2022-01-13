@@ -374,6 +374,10 @@ header nav ul a {
 }
 
 /* contact */
+.contact__info--mission a {
+  font-weight: 400;
+  color: #fc5656;
+}
 
 /* cartes de contact */
 .portfolios__cards,
@@ -382,27 +386,54 @@ header nav ul a {
   flex-wrap: wrap;
 }
 .contact__card {
+  justify-content: center;
+  text-align: center;
+  padding-top: 1.5rem;
   margin: 0.5rem;
   width: 9rem;
   height: 9rem;
   border-radius: 1.5rem;
   background-color: #fff;
-  box-shadow: black;
+  box-shadow: rgba(46, 50, 68, 0);
+  transition: 300ms ease-in-out;
 }
+.contact__card:hover {
+  background-color: #bbb;
+  box-shadow: rgba(46, 50, 68, 0.3);
+}
+
 .contact__card h3 {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  color: #2e3244;
+  transition: 300 ease-in-out;
+}
+contact__card h3:hover {
+  color: #fff;
+}
+
+.contact__card--logo {
+  width: 4rem;
+  height: 4rem;
   margin: auto;
 }
-.contact__card--logo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-self: center;
-  height: 5rem;
+
+.card__logo--BASE {
+  opacity: 1;
+  transition: 300ms ease-in-out;
 }
-.card__logo--BASE,
 .card__logo--HOVER {
-  display: flex;
-  flex-wrap: wrap;
-  width: 4rem;
+  position: relative;
+  top: -4.35rem;
+  opacity: 0;
+  z-index: -1;
+  transition: 300ms ease-in-out;
+}
+.contact__card:hover .card__logo--BASE {
+  opacity: 0;
+}
+.contact__card:hover .card__logo--HOVER {
+  opacity: 1;
+  z-index: 1;
 }
 
 /* footer */
