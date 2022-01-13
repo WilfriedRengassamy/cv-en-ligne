@@ -374,9 +374,14 @@ header nav ul a {
 }
 
 /* contact */
-.contact__info--mission a {
+.contact__info--mission p a {
   font-weight: 400;
   color: #fc5656;
+  transition: 300ms ease-in-out;
+}
+.contact__info--mission p a:hover {
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 /* cartes de contact */
