@@ -6,6 +6,10 @@ body {
   font-family: "spartan";
   color: #2e3244;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 h1 {
   font-weight: 200;
   font-size: 4.5rem;
@@ -367,6 +371,38 @@ header nav ul a {
 #cv__apt p {
   font-size: 0.7rem;
   color: #fff;
+}
+
+/* contact */
+
+/* cartes de contact */
+.portfolios__cards,
+.socials__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__card {
+  margin: 0.5rem;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: black;
+}
+.contact__card h3 {
+  margin: auto;
+}
+.contact__card--logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  height: 5rem;
+}
+.card__logo--BASE,
+.card__logo--HOVER {
+  display: flex;
+  flex-wrap: wrap;
+  width: 4rem;
 }
 
 /* footer */
